@@ -1,0 +1,177 @@
+DEBUG 2018-12-06 15:20:08,602 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-06 15:20:08,690 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-12-06 15:20:08,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, MPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:08,719 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-12-06 15:20:08,790 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:20:08,790 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:20:08,790 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:20:08,790 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:20:09,209 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:20:11,115 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-06 15:20:11,171 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-06 15:20:11,220 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-06 15:20:11,245 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-12-06 15:20:11,276 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-06 15:20:11,458 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-06 15:20:11,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-12-06 15:20:11,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-12-06 15:20:11,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-12-06 15:20:11,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-12-06 15:20:11,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-06 15:20:11,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-06 15:20:11,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-12-06 15:20:11,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-12-06 15:20:11,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-12-06 15:20:11,519 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-12-06 15:20:11,519 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+INFO  2018-12-06 15:20:17,717 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-12-06 15:20:17,717 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-12-06 15:20:17,808 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 99.0533ms 200 
+INFO  2018-12-06 15:20:20,952 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host)
+INFO  2018-12-06 15:20:21,975 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host) - Validation state: Valid
+INFO  2018-12-06 15:20:21,985 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.74ms.
+INFO  2018-12-06 15:20:22,130 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-12-06 15:20:22,144 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host) in 1186.2972ms
+INFO  2018-12-06 15:20:22,163 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-12-06 15:20:22,167 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4459.8487ms 302 
+INFO  2018-12-06 15:20:22,179 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.2995ms 301 
+INFO  2018-12-06 15:20:22,186 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-12-06 15:20:22,226 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.4524ms 200 text/html
+INFO  2018-12-06 15:20:22,261 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-12-06 15:20:22,263 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-12-06 15:20:22,265 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-12-06 15:20:22,271 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-12-06 15:20:22,273 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-12-06 15:20:22,311 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'H:\MPACore.PhoneBook\4.2.1\aspnet-core\src\MPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-12-06 15:20:22,311 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'H:\MPACore.PhoneBook\4.2.1\aspnet-core\src\MPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-12-06 15:20:22,314 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.2804ms 200 application/javascript
+INFO  2018-12-06 15:20:22,315 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.7089ms 200 application/javascript
+INFO  2018-12-06 15:20:22,333 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-12-06 15:20:22,378 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 88.0954ms 200 text/css
+INFO  2018-12-06 15:20:22,390 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-12-06 15:20:22,410 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.9209ms 200 application/javascript
+INFO  2018-12-06 15:20:22,443 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-12-06 15:20:22,447 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184.7288ms 200 application/javascript
+INFO  2018-12-06 15:20:22,748 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-12-06 15:20:22,789 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-12-06 15:20:22,795 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-12-06 15:20:22,798 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.6162ms 200 image/png
+INFO  2018-12-06 15:20:22,831 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-12-06 15:20:22,842 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-12-06 15:20:22,845 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.0626ms 200 image/png
+INFO  2018-12-06 15:20:23,033 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 288.3204ms 200 application/json;charset=utf-8
+DEBUG 2018-12-06 15:21:42,698 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-06 15:21:42,775 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-12-06 15:21:42,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, MPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:42,801 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-12-06 15:21:42,873 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:21:42,873 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:21:42,873 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:21:42,873 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:21:43,207 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:44,106 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-06 15:21:44,155 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-06 15:21:44,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-06 15:21:44,222 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-12-06 15:21:44,249 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-06 15:21:44,414 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-06 15:21:44,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-12-06 15:21:44,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-12-06 15:21:44,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-12-06 15:21:44,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-12-06 15:21:44,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-06 15:21:44,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-06 15:21:44,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-12-06 15:21:44,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-12-06 15:21:44,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-12-06 15:21:44,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-12-06 15:21:44,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2018-12-06 15:21:59,826 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-06 15:21:59,847 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-12-06 15:21:59,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, MPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:21:59,884 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-12-06 15:21:59,939 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:21:59,939 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:21:59,939 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:21:59,939 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-06 15:22:00,262 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-06 15:22:00,631 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-06 15:22:00,688 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-06 15:22:00,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-06 15:22:00,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-12-06 15:22:00,787 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-06 15:22:00,819 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-06 15:22:00,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-12-06 15:22:00,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-12-06 15:22:00,863 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-12-06 15:22:00,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-12-06 15:22:00,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-06 15:22:00,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-06 15:22:00,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-12-06 15:22:00,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-12-06 15:22:00,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-12-06 15:22:00,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-12-06 15:22:00,865 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+FATAL 2018-12-06 15:22:04,192 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.ArgumentNullException: Value cannot be null.
+Parameter name: str
+   at Abp.Extensions.StringExtensions.EnsureEndsWith(String str, Char c, StringComparison comparisonType) in D:\Github\aspnetboilerplate\src\Abp\Extensions\StringExtensions.cs:line 30
+   at MPACore.PhoneBook.Web.Host.Startup.Startup.<Configure>b__4_3(SwaggerUIOptions options) in H:\MPACore.PhoneBook\4.2.1\aspnet-core\src\MPACore.PhoneBook.Web.Host\Startup\Startup.cs:line 122
+   at Microsoft.AspNetCore.Builder.SwaggerUIBuilderExtensions.UseSwaggerUI(IApplicationBuilder app, Action`1 setupAction)
+   at MPACore.PhoneBook.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in H:\MPACore.PhoneBook\4.2.1\aspnet-core\src\MPACore.PhoneBook.Web.Host\Startup\Startup.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+INFO  2018-12-06 15:22:04,451 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-12-06 15:22:04,564 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.6274ms 500 text/html; charset=utf-8
+INFO  2018-12-06 15:22:06,311 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:15448/iisintegration  0
+INFO  2018-12-06 15:22:06,313 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9809ms 500 text/html; charset=utf-8
+WARN  2018-12-06 15:22:06,318 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection processing ended abnormally.
+Microsoft.AspNetCore.Connections.ConnectionAbortedException: The connection was aborted
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
