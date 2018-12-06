@@ -19,7 +19,7 @@ namespace MPACore.PhoneBook.Migrator
         private readonly Log _log;
         private readonly AbpZeroDbMigrator _migrator;
         private readonly IRepository<Tenant> _tenantRepository;
-        private readonly IDbPerTenantConnectionStringResolver _connectionStringResolver;
+        private readonly IDbPerTenantConnectionStringResolver _connectionStringResolver; 
 
         public MultiTenantMigrateExecuter(
             AbpZeroDbMigrator migrator,
