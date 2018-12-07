@@ -1,2 +1,2 @@
-# phonebool
+# phonebook
 core project
