@@ -1,0 +1,137 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@using MPACore.PhoneBook
+@using MPACore.PhoneBook.Web.Startup
+@model Abp.Application.Services.Dto.PagedResultDto<MPACore.PhoneBook.PhoneBook.Dtos.PersonListDto>
+@{
+    ViewBag.CurrentPageName = PageNames.Person; // The menu item will be active for this page.
+}
+@section scripts
+    {
+    <environment names="Development">
+        <script src="~/view-resources/Views/persons/Index.js" asp-append-version="true"></script>
+    </environment>
+
+    @*<environment names="Staging,Production">
+            <script src="~/view-resources/Views/Users/Index.min.js" asp-append-version="true"></script>
+        </environment>*@
+}
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    @L("Persons")
+                </h2>
+                <ul class="header-dropdown m-r--5">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a id="RefreshButton" href="javascript:void(0);" class="waves-effect waves-block"><i class="material-icons">refresh</i>@L("Refresh")</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="body table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>@L("PersonName")</th>
+                            <th>@L("PersonEmail")</th>
+                            <th>@L("PersonAddress")</th>
+                            <th>@L("PersonCreationTime")</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model.Items)
+                        {
+                            <tr>
+                                <td>@user.Name</td>
+                                <td>@user.Email</td>
+                                <td>@user.Address</td>
+                                <td>@user.CreationTime</td>
+                                <td class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">menu</i>
+                                    </a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="#" class="waves-effect waves-block edit-person" data-person-id="@user.Id" data-toggle="modal" data-target="#PersonCreateModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@user.Id" data-person-name="@user.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#PersonCreateModal">
+                    <i class="material-icons">add</i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="PersonCreateModal" tabindex="-1" role="dialog" aria-labelledby="UserCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    <span class="createSpan">@L("CreateNewPerson")</span>
+                    <span class="updateSpan">@L("UpdatePerson")</span>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form name="userCreateForm" role="form" novalidate class="form-validation">
+                    <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                        @*<li role="presentation" class="active"><a href="#create-user-details" data-toggle="tab">@L("PersonDetails")</a></li>
+                            <li role="presentation"><a href="#create-user-roles" data-toggle="tab">@L("UserRoles")</a></li>*@
+                    </ul>
+                    <div class="tab-content">
+                        <input type="hidden" name="Id" />
+                        <div role="tabpanel" class="tab-pane animated fadeIn active" id="create-user-details">
+                            <div class="row clearfix" style="margin-top: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Name" required maxlength="@PhoneBookConsts.MaxNameLength">
+                                            <label class="form-label">@L("PersonName")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="email" name="Email" class="form-control" required maxlength="@PhoneBookConsts.MaxEmailLength">
+                                            <label class="form-label">@L("PersonEmail")</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row clearfix" style="margin-top: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" name="Address" class="form-control" required maxlength="@PhoneBookConsts.MaxAddressLength">
+                                            <label class="form-label">@L("PersonAddress")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">@L("PersonCancel")</button>
+                        <button type="submit" class="btn btn-primary waves-effect">@L("PersonSave")</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
