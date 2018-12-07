@@ -4,14 +4,16 @@ using MPACore.PhoneBook.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MPACore.PhoneBook.Migrations
 {
     [DbContext(typeof(PhoneBookDbContext))]
-    partial class PhoneBookDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181207150819_Add_NewPersonAndNumberEntity")]
+    partial class Add_NewPersonAndNumberEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
