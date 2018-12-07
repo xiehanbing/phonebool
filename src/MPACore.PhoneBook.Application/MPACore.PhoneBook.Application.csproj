@@ -13,4 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MPACore.PhoneBook.Core\MPACore.PhoneBook.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PhoneBook\PhoneNumber\Dto\" />
+  </ItemGroup>
 </Project>
