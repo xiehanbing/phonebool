@@ -12,6 +12,9 @@
                 return;
             }
             var personEditDto = _$form.serializeFormToObject();//序列化表单为对象
+            var phonenumberType = personEditDto.PhoneNumberType;
+            var phoneNumber = personEditDto.PhoneNumber;
+            personEditDto.PhoneNumbers = [{ Type: phonenumberType, Number: phoneNumber, Id: personEditDto.PhoneId }];
             abp.ui.setBusy(_$modal);
             //约定大于配置
             _personService.addOrUpdatePerson({ Person:personEditDto }).done(function () {
@@ -33,6 +36,12 @@
                 $('input[name=Name]').val(data.person.name).parent().addClass('focused');
                 $('input[name=Address]').val(data.person.address).parent().addClass('focused');
                 $('input[name=Email]').val(data.person.email).parent().addClass('focused');
+                var phoneNumbers = data.person.phoneNumbers;
+                if (phoneNumbers != null && phoneNumbers.length > 0) {
+                    $('select[name=PhoneNumberType]').selectpicker("val",phoneNumbers[0].type+'').parent().addClass('focused');
+                    $('input[name=PhoneNumber]').val(phoneNumbers[0].number).parent().addClass('focused');
+                    $('input[name=PhoneId]').val(phoneNumbers[0].id);
+                }
             });
         });
 

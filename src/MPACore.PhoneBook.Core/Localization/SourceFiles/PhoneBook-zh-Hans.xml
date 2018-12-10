@@ -18,7 +18,7 @@
     <text name="Password" value="密码" />
     <text name="RememberMe" value="记住我" />
     <text name="LogIn" value="登录" />
-    
+    <text name="Refresh" value="刷新" />
     <text name="LoginFailed" value="登录失败!" />
 <!--联系人 person-->
     <text name="Persons" value="联系人" />
@@ -33,6 +33,7 @@
     <text name="PersonCancel" value="取消" />
     <text name="PersonSave" value="保存" />
     <text name="UpdatePerson" value="更新联系人" />
-
+    <text name="PhoneNumberType" value="类型" />
+    <text name="PhoneNumber" value="电话" />
   </texts>
 </localizationDictionary>

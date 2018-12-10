@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MPACore.PhoneBook.Migrations
 {
     [DbContext(typeof(PhoneBookDbContext))]
-    [Migration("20181207150819_Add_NewPersonAndNumberEntity")]
+    [Migration("20181210082017_Add_NewPersonAndNumberEntity")]
     partial class Add_NewPersonAndNumberEntity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -1087,23 +1087,24 @@ namespace MPACore.PhoneBook.Migrations
                     b.Property<long?>("LastModifierUserId");
 
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(20);
+                        .IsRequired();
 
                     b.HasKey("Id");
 
                     b.ToTable("Person","PB");
                 });
 
-            modelBuilder.Entity("MPACore.PhoneBook.PhoneBooks.PhoneNumbers.PhoneNumber", b =>
+            modelBuilder.Entity("MPACore.PhoneBook.PhoneBooks.Phones.PhoneNumber", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("CreationTime");
 
-                    b.Property<string>("Number");
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasMaxLength(20);
 
                     b.Property<int>("PersonId");
 
@@ -1286,10 +1287,10 @@ namespace MPACore.PhoneBook.Migrations
                         .HasForeignKey("LastModifierUserId");
                 });
 
-            modelBuilder.Entity("MPACore.PhoneBook.PhoneBooks.PhoneNumbers.PhoneNumber", b =>
+            modelBuilder.Entity("MPACore.PhoneBook.PhoneBooks.Phones.PhoneNumber", b =>
                 {
-                    b.HasOne("MPACore.PhoneBook.PhoneBooks.Persons.Person", "Person")
-                        .WithMany()
+                    b.HasOne("MPACore.PhoneBook.PhoneBooks.Persons.Person")
+                        .WithMany("PhoneNumbers")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

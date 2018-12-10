@@ -63,7 +63,28 @@
                                         <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@user.Id" data-person-name="@user.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
+
                             </tr>
+                            if (user.PhoneNumbers.Count > 0)
+                             {
+                                 <tr>
+                                     <th>
+                                         电话类型
+                                     </th>
+                                     <th>
+                                         电话号码
+                                     </th>
+
+                                 </tr>
+                                 foreach (var item in user.PhoneNumbers)
+                                  {
+                                      <tr>
+                                          <td>@item.Type</td>
+                                          <td>@item.Number</td>
+                                      </tr>
+                                  }
+                              
+                             }
                         }
                     </tbody>
                 </table>
@@ -123,6 +144,36 @@
                                     </div>
                                 </div>
                             </div>
+
+
+                            <div class="row clearfix" style="margin-top: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <label class="form-label">@L("PhoneNumberType")</label>
+                                            <select name="PhoneNumberType" class="form-control selectpicker">
+                                                <option value="1">移动电话</option>
+                                                <option value="2">家庭</option>
+                                                <option value="3">公司</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix" style="margin-top: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input type="text" name="PhoneNumber" class="form-control" required maxlength="@PhoneBookConsts.MaxPhoneNumberLength">
+                                            <label class="form-label">@L("PhoneNumber")</label>
+                                            <input type="hidden" name="PhoneId" value=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="modal-footer">

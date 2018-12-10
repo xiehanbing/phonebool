@@ -31,7 +31,6 @@ namespace MPACore.PhoneBook.PhoneBooks.Persons
         /// </summary>
         [MaxLength(200)]
         public string Address { get; set; }
-
         /// <summary>
         /// 电话号码属性
         /// </summary>

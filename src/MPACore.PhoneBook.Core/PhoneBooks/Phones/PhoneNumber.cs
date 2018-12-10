@@ -8,7 +8,7 @@ using MPACore.PhoneBook.PhoneBooks.Persons;
 
 namespace MPACore.PhoneBook.PhoneBooks.Phones
 {
-    public class PhoneNumber : Entity<long>,IHasCreationTime
+    public class PhoneNumber : Entity<int>,IHasCreationTime
     {
         /// <summary>
         /// 创建时间
@@ -28,9 +28,5 @@ namespace MPACore.PhoneBook.PhoneBooks.Phones
         /// persion的id
         /// </summary>
         public int PersonId { get; set; }
-        /// <summary>
-        /// 用户
-        /// </summary>
-        public Person Person { get; set; }
     }
 }

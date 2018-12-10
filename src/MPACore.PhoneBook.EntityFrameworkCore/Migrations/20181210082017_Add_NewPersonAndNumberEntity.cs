@@ -666,7 +666,7 @@ namespace MPACore.PhoneBook.Migrations
                 schema: "PB",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CreationTime = table.Column<DateTime>(nullable: false),
                     Number = table.Column<string>(maxLength: 20, nullable: false),

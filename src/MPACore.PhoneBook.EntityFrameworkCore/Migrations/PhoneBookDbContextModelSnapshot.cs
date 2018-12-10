@@ -1094,7 +1094,7 @@ namespace MPACore.PhoneBook.Migrations
 
             modelBuilder.Entity("MPACore.PhoneBook.PhoneBooks.Phones.PhoneNumber", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -1287,8 +1287,8 @@ namespace MPACore.PhoneBook.Migrations
 
             modelBuilder.Entity("MPACore.PhoneBook.PhoneBooks.Phones.PhoneNumber", b =>
                 {
-                    b.HasOne("MPACore.PhoneBook.PhoneBooks.Persons.Person", "Person")
-                        .WithMany()
+                    b.HasOne("MPACore.PhoneBook.PhoneBooks.Persons.Person")
+                        .WithMany("PhoneNumbers")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

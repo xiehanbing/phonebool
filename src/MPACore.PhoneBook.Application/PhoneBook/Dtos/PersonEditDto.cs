@@ -5,6 +5,7 @@ using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 using AutoMapper.Configuration.Conventions;
 using MPACore.PhoneBook.PhoneBooks.Persons;
+using MPACore.PhoneBook.PhoneBooks.Phones;
 
 namespace MPACore.PhoneBook.PhoneBook.Dtos
 {
@@ -27,5 +28,7 @@ namespace MPACore.PhoneBook.PhoneBook.Dtos
         /// 地址
         /// </summary>
         public string Address { get; set; }
+
+        public ICollection<PhoneNumber> PhoneNumbers { get; set; }
     }
 }
