@@ -8120,3 +8120,5 @@ INFO  2018-12-07 18:11:20,877 [6    ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2018-12-07 18:11:20,894 [6    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2018-12-07 18:11:20,908 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"plz5XsGJYkSHcCy5V3FCgg","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-12-07T18:11:20.8942621+08:00","Properties":{}}
 DEBUG 2018-12-07 18:11:20,908 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: plz5XsGJYkSHcCy5V3FCgg
+DEBUG 2018-12-07 18:16:57,673 [20   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: plz5XsGJYkSHcCy5V3FCgg
+INFO  2018-12-07 18:16:57,674 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 336797.721ms 101 
